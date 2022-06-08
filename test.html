@@ -4,10 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OZMusic Homepage</title>
+    <title>Homepage</title>
 </head>
 <body>
     <h1>Australian Rare Vinyls</h1>
+    <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#recom">Recommendations</a></li>
+        <li><a href="#browse">Browse</a></li>
+        <li><a href="#account">Your Account</a></li>
+    </ul>
+    <dl>Featured Record
+        <dt>Kupla Coniferous</dt>
+        <dt>Eminem</dt>
+        <dd>Lorem ipsum<br />dolor sit amet, consectetur<br />adipiscing elit. Vestibulum tincidunt<br />placerat
+            lacus, quis pharetra sem<br />ornare eu. In pulvinar iaculis <br />condimentum. Nullam feugiat<br />venenatis
+            pulvinar. Pellentesque et <br />dolor a nisi suscipit mattis. Nunc <br />sapien sem, bibendum at
+            molestie <br />non, sagittis vitae ligula.</dd>
+    </dl>
+    <dl>Featured Record
+        <dt>Take Me Down</dt>
+        <dt>Drake</dt>
+        <dd>Lorem ipsum<br />dolor sit amet, consectetur<br />adipiscing elit. Vestibulum tincidunt<br />placerat
+            lacus, quis pharetra sem<br />ornare eu. In pulvinar iaculis <br />condimentum. Nullam feugiat<br />venenatis
+            pulvinar. Pellentesque et <br />dolor a nisi suscipit mattis. Nunc <br />sapien sem, bibendum at
+            molestie <br />non, sagittis vitae ligula.</dd>
+    </dl>
+    <h2>Recommendations</h2>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Kupla Coniferous</h3>
+                <p class="prod-artist">Eminem</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Kupla Coniferous</h3>
+                <p class="prod-artist">Eminem</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <span class="discount-tag">30% off</span>
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Take Me Down</h3>
+                <p class="prod-artist">Drake</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <span class="discount-tag">25% off</span>
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Yeu Nhau</h3>
+                <p class="prod-artist">Trinh Son</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Classy Lady</h3>
+                <p class="prod-artist">M. Monica</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Random Album</h3>
+                <p class="prod-artist">Rando</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Girl's Generation</h3>
+                <p class="prod-artist">SNSD</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <div class="product-img">
+                <img src="img/card1.png" class="thumbnail" alt="">
+            </div>
+            <div class="product-info">
+                <h3 class="prod-name">Cry Baby</h3>
+                <p class="prod-artist">Melanie Martinez</p>
+                <span class="price">$20</span><span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
     
+    
+    
+    <script>
+          function OpenMenu(){
+              if (Homepage.getElementbyId('menu').style.display == 'block'){
+                  homepage.getElementbyId('menu').style.display = 'none';
+              } else {
+                  homepage.getElementbyId('menu').style.display = 'block';
+              }
+          }
+          homepage.getElementbyId('menu').addEventListener('click', opemmenu);
+    </script>
 </body>
 </html>
