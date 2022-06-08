@@ -62,7 +62,7 @@ dd {
     align-items: center;
     justify-content: center;
 }
-/*remove bullet points from list items, add padding, and position*/
+/*remove bullet points from list items, add padding, and position (for the underline effect's position later)*/
 #navbar li {
     list-style: none;
     padding: 0 20px;
@@ -76,10 +76,26 @@ dd {
     color: #130C12;
     transition: 0.4s ease;
 }
-/*add hover effect to nav items*/
+/*add hover effect to nav items and add color effect to indicate the current page in use*/
 #navbar li a:hover,
 #navbar li a.active {
     color:#fff;
+}
+/*add underline effect that goes active when hovered*/
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 40%;
+    height: 1.5px;
+    background: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+}
+
+#navbar li a i {
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .homepage {
