@@ -44,6 +44,43 @@ dd {
     color: #465b52;
     margin: 15px 0 20px 0;
 }
+/*create nav bar background, align objects (with padding)*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #D383CC;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+/*align menu items horizontally*/
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*remove bullet points from list items, add padding, and position*/
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+/*remove the underline of anchor tags & adjust font size, weight etc*/
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #130C12;
+    transition: 0.4s ease;
+}
+/*add hover effect to nav items*/
+#navbar li a:hover,
+#navbar li a.active {
+    color:#fff;
+}
 
 .homepage {
     align-items: center;
