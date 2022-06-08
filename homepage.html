@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Homepage</title>
 </head>
 <body>
-    <h1>Australian Rare Vinyls</h1>
-    <ul id="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#recom">Recommendations</a></li>
-        <li><a href="#browse">Browse</a></li>
-        <li><a href="#account">Your Account</a></li>
-    </ul>
+    <section id="header">
+        <a href="#"><img src="logo.png" class="logo" alt=""></a>
+        <h3>Australian Rare Vinyls</h3>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recom">Recommendations</a></li>
+            <li><a href="#browse">Browse</a></li>
+            <li><a href="#account">Your Account</a></li>
+        </ul>
+    </section>
     <dl>Featured Record
         <dt>Kupla Coniferous</dt>
         <dt>Eminem</dt>
@@ -180,16 +184,10 @@
                 <i class="afterpay"></i>
             </div>
         </div>
+        <div class="copyright">
+            <p>© 2022, OZ Online Music Records</p>
+        </div>
     </footer>
-    <script>
-          function OpenMenu(){
-              if (Homepage.getElementbyId('menu').style.display == 'block'){
-                  homepage.getElementbyId('menu').style.display = 'none';
-              } else {
-                  homepage.getElementbyId('menu').style.display = 'block';
-              }
-          }
-          homepage.getElementbyId('menu').addEventListener('click', opemmenu);
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
