@@ -744,6 +744,27 @@ textarea{
     border: 1px solid #FAAD0D;
     padding-left: 10%;
 }
+/*Order confirmation*/
+.heading{
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    display: block;
+    line-height: 50px;
+    margin: 30px auto 60px;
+    text-transform: capitalize;
+}
+.heading span{
+    font-weight: 200;
+}
+#order-confirmation {
+    padding-top:100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+#order-confirmation button {
+    margin-left:45%;
+}
 /*Start Media Query*/
 @media (max-width:799px) {
     .section-p1 {
