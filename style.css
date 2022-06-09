@@ -1,4 +1,4 @@
-@import url=('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -690,7 +690,7 @@ footer a:hover {
  padding-left: 10%;
 
 } 
-input:not(.search-box, .checkbox, .size-checkbox, input[type="file"]),
+#checkout-form input:not( .search-box, .checkbox, .size-checkbox, input[type="file"]),
 textarea{
     display: block;
     width: 300px;
@@ -707,7 +707,7 @@ textarea{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
     font-family: 'Poppins', sans-serif;
 }
-.form{
+.form2 {
     width: 100%;
     padding: 20px 10vw;
 }
