@@ -63,12 +63,21 @@ body {
 .logo {
     max-width:60%;
 }
+/*hide mobie menu*/
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
 /*create nav bar background, align objects (with padding) and make navbar sticky i.e. still visible when scroll down*/
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 15px 80px;
     background: #D383CC;
     position: sticky;
     top: 0;
@@ -293,7 +302,7 @@ img {
     justify-content: center;
     align-items: flex-start;
     padding:30px;
-    margin: 40px 8px;
+    margin: 20px 8px;
     transition: 0.2s;
 
 }
@@ -420,4 +429,201 @@ footer .follow i:hover,
 footer a:hover {
     color: #FAAD0D;
 }
+/*Start Media Query*/
+@media (max-width:799px) {
+    .section-p1 {
+        padding: 40px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #FAAD0D;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+        padding: 80px 0 0 10px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+    }
+    #navbar.active {
+        right: 0;
+    }
+    #mobile {
+        display: flex;
+    }
+    #mobile i {
+        color: #130C12;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #bar {
+        display: initial;
+    }
+    #close {
+        display: initial;
+        font-size: 24px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+    }
+    #lg-bag,
+    #lg-search {
+        display: none;
+    }
+    #feature1 {
+        justify-content: center;
+    }
+    #feature2 {
+        justify-content: center;
+    }
+    
+    #feature1 .featured-1a {
+        margin: 15px;
+    }
+    #feature1 .featured-1b {
+        margin: 15px;
+    }
+    #feature2 .featured-2a {
+        margin: 15px;
+    }
+    #feature2 .featured-2b {
+        margin: 15px;
+    }
 
+    #product1 .product-container {
+        justify-content: center;
+    }
+    #product1 .product {
+        margin: 15px;
+    }
+    #banner {
+        height: 10vh;
+    }
+    
+    #genre-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        padding: 30px;
+    }
+    
+    #newsletter .form {
+        width: 70%;
+    }
+    /* Contact Page */
+    #form-details {
+        padding: 40px;
+    }
+    #form-details form {
+        width: 50%;
+    }
+}
+@media (max-width:477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    #header {
+        padding: 10px 30px;
+    }
+    
+    #feature1 {
+        justify-content: space-between;
+    }
+    #feature2 {
+        justify-content: space-between;
+    }
+    #feature1 .featured-1a {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #feature1 .featured-1b {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #feature2 .featured-2a {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #feature2 .featured-2b {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #genre-banner .banner-box {
+        height: 40vh;
+    }
+    #genre-banner .banner-box {
+        margin-top: 20px;
+    }
+    
+    #newsletter {
+        padding: 40px 20px;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    footer .copyright {
+        text-align: start;
+    }
+    /* Contact Page */
+    #contact-details .details {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #contact-details {
+        flex-wrap: wrap;
+    }
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    #form-details form {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    /* Cart Page */
+    #cart-add {
+        flex-direction: column;
+    }
+    #cuopon,
+    #subtotal {
+        width: 100%;
+    }
+    #subtotal {
+        padding: 20px;
+    }
+    /* SIngle Product */
+    #prodetails {
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
