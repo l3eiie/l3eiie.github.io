@@ -60,6 +60,9 @@ body {
 .section-m1 {
     margin: 40px 0;
 }
+.logo {
+    max-width:60%;
+}
 /*create nav bar background, align objects (with padding) and make navbar sticky i.e. still visible when scroll down*/
 #header {
     display: flex;
@@ -362,3 +365,59 @@ img {
     color: #fff;
 }
 /*footer section*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer h4 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer a {
+    font-family:'poppins';
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #372334;
+}
+
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #FAAD0D;
+}
+
