@@ -1,1 +1,283 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.svg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class='active' href="homepage.html">Home</a></li>
+                <li><a href="#recom">Recommendations</a></li>
+                <li><a href="#browse">Browse</a></li>
+                <li><a href="#account">Your Account</a></li>
+                <li><a href="cart.html"><svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                aria-hidden="true" 
+                role="img" 
+                width="26"
+                height="26" 
+                preserveAspectRatio="xMidYMid meet" 
+                viewBox="0 0 24 24">
+                <g fill="none" 
+                stroke="currentColor" 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2">
+                <path d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z"/>
+                <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"/></g>
+                </svg></a></li>
+                <a href="#" id="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true" role="img" 
+                    width="22" height="22" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="#130c12" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504L738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512L828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496L285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512L195.2 285.696a64 64 0 0 1 0-90.496z"/>
+                    </svg>
+                </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i href="cart.html"><svg svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                aria-hidden="true" 
+                role="img" 
+                width="25"
+                height="25" 
+                preserveAspectRatio="xMidYMid meet" 
+                viewBox="0 0 24 24">
+                <g fill="none" 
+                stroke="#130C12" 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                stroke-width="2">
+                <path d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z"/>
+                <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"/></g>
+                </svg></i>
+            <i id="bar">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                aria-hidden="true" role="img" 
+                width="26" height="26" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="#130c12" d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+                </svg></i>
+        </div>
+    </section>
+    <section id="banner">
+        <p><span>Free shipping</span> for orders over <span>$70</span></p>
+        <p></span> 15% Discount Sitewide: <span>EOFY22</span></p>
+        <p><span>Exclusive</span> Special Edition Albums on <Span>Sale</Span></p>
+    </section>
+    <section id='feature1'>
+        <div class="featured-1a">
+            <img src="img/thumb1.jpg" alt="Kupla Coniferous Album Cover">
+        </div>
+        <div class="featured-1b">
+                <h4>Featured Record</h4>
+                <h3>Kupla Coniferous</h3>
+                <h4>Eminem</h4>
+                <p>Lorem ipsum<br />dolor sit amet, consectetur<br />adipiscing elit. Vestibulum tincidunt<br />placerat
+                lacus, quis pharetra sem<br />ornare eu. In pulvinar iaculis <br />condimentum. Nullam feugiat<br />venenatis
+                pulvinar. Pellentesque et <br />dolor a nisi suscipit mattis. Nunc <br />sapien sem, bibendum at
+                molestie <br />non, sagittis vitae ligula.</p>
+        </div>
+    </section>
+    <section id="feature2">
+        <div class='featured-2a'>
+            <h4>Featured Record</h4>
+            <h3>Take Me Down</h3>
+            <h4>Drake</h4>
+            <p>Lorem ipsum<br />dolor sit amet, consectetur<br />adipiscing elit. Vestibulum tincidunt<br />placerat
+            lacus, quis pharetra sem<br />ornare eu. In pulvinar iaculis <br />condimentum. Nullam feugiat<br />venenatis
+            pulvinar. Pellentesque et <br />dolor a nisi suscipit mattis. Nunc <br />sapien sem, bibendum at
+            molestie <br />non, sagittis vitae ligula.</p>
+        </div>
+        <div class="featured-2b">
+            <img src="img/thumb2.jpg" alt="Take Me Down Album Cover">
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h3>Recommendations</h3>
+        <div class="product-container">
+            <div class="product">
+                <span class="discount-tag">30% off</span>
+                <img src="img/thumb1.jpg" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Kupla Coniferous</h4>
+                    <h5 class="prod-artist">Eminem</h5>
+                    <p class="price">$36.99</p><p class="actual-price">$52.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <span class="discount-tag">15% off</span>
+                <img src="img/thumb9.jpg" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Pink Friday</h4>
+                    <h5 class="prod-artist">Nicki Minaj</h5>
+                    <p class="price">$46.79</p><p class="actual-price">$54.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <span class="discount-tag">25% off</span>
+                <img src="img/thumb3.jpg" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Mustache Gentleman</h4>
+                    <h5 class="prod-artist">B.O.B.</h5>
+                    <p class="price">$33.69</p><p class="actual-price">$44.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <span class="discount-tag">10% off</span>
+                <img src="img/thumb4.jpg" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Teflon Don</h4>
+                    <h5 class="prod-artist">Kanye West</h5>
+                    <p class="price">$58.49</p><p class="actual-price">$64.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/thumb5.jpg" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Call Me By My Name</h4>
+                    <h5 class="prod-artist">Hiroshi Takana</h5>
+                    <p class="price">$39.99 </p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/thumb6.webp" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Chill Lofi</h4>
+                    <h5 class="prod-artist">Cavetown</h5>
+                    <p class="price">$79.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/thumb7.jpg" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Mozart Dupe</h4>
+                    <h5 class="prod-artist">Trazom</h5>
+                    <p class="price">$34.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/thumb8.png" class="thumbnail" alt="">
+                <div class="des">
+                    <h4 class="prod-name">Bell in the Multiverse</h4>
+                    <h5 class="prod-artist">Lil Bell</h5>
+                    <p class="price">$59.99</p>
+                </div>
+            </div>
+        </div>
+        <button class="next-btn">VIEW MORE</button> 
+    </section>
+    <section id="genre-banner" class="section-p1">
+        <h3 id="genres">Popular Genres</h3>
+        <div class="genre-container">
+            <div class="banner-box">
+                <h3>Blues</h3>
+            </div>
+            <div class="banner-box box2">
+                <h3>Alternative</h3>
+            </div>
+            <div class="banner-box box3">
+                <h3>Popular Culture</h3>
+            </div>
+            <div class="banner-box box4">
+                <h3>Metal/Hard Rock</h3>
+            </div>
+            <div class="banner-box box5">
+                <h3>Preloved Vinyl</h3>
+            </div>
+            <div class="banner-box box6">
+                <h3>Stoner/Doom</h3>
+            </div>
+        </div>
+        <button class="next-btn">VIEW MORE</button> 
+    </section>
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h3>Sign up for Newsletters</h3>
+            <p>Get E-mail updates about our latest collections & member-only offers</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="next-btn">Sign Up</button>
+        </div>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.svg" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 228 A'Beckett Street, Melbourne VIC 3000</p>
+            <p><strong>Phone:</strong> +61 8888 8888</p>
+            <p><strong>Hours:</strong> 10:00 - 21:00, Mon - Sun</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true" 
+                    role="img" 
+                    width="26" height="26" 
+                    preserveAspectRatio="xMidYMid meet" 
+                    viewBox="0 0 24 24">
+                    <path fill="#130C12" 
+                    d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true" 
+                    role="img" width="26" height="26" 
+                    preserveAspectRatio="xMidYMid meet" 
+                    viewBox="0 0 24 24">
+                    <path fill="#130c12" d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216a4.61 4.61 0 0 0-2.633-2.633a6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42a4.607 4.607 0 0 0-2.633 2.633a6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632a6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419a4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187c.043-.962.056-1.267.056-3.71c-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078a1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"/><circle cx="11.994" cy="11.979" r="3.003" fill="#130c12"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true" role="img" width="26" height="26" 
+                    preserveAspectRatio="xMidYMid meet" 
+                    viewBox="0 0 24 24">
+                    <path fill="#130c12" d="M19.633 7.997c.013.175.013.349.013.523c0 5.325-4.053 11.461-11.46 11.461c-2.282 0-4.402-.661-6.186-1.809c.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721a4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062c.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973a4.02 4.02 0 0 1-1.771 2.22a8.073 8.073 0 0 0 2.319-.624a8.645 8.645 0 0 1-2.019 2.083z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true" role="img" width="26" height="26" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#130c12" d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6l5.207 3.005l-5.212 2.995z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Shipping & Refund Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In or Register</a>
+            <a href="#">Shopping Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col-install">
+            <h4>Secured Payments</h4>
+            <div class="payments">
+            <img src="img/amex.svg" alt="">
+            <img src="img/jcb.svg" alt="">
+            <img src="img/mastercard.svg" alt="">
+            <img src="img/visa.svg" alt="">
+            <img src="img/applepay.svg" alt="">
+            <img src="img/googlepay.svg" alt="">
+            <img src="img/paypal.svg" alt="">
+            <img src="img/afterpay.svg" alt="">
+            <img src="img/shoppay.svg" alt="">
+        </div>
+        </div>
+        <div class="copyright">
+            <p>© 2022, OZ Music Online Australia</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
