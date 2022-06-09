@@ -121,7 +121,7 @@ body {
     flex-wrap: wrap;
     padding: 40px;
     padding-bottom:20px;
-    padding-top: 100px;
+    padding-top: 60px;
     background-color: #FAAD0D;
 }
 #feature2 {
@@ -163,7 +163,7 @@ img {
 #product1 {
     text-align: center;
 }
-
+/*arrange prod cards in rows & style*/
 #product1 .product-container {
     display: flex;
     flex-wrap: wrap;
@@ -174,7 +174,7 @@ img {
 #product1 .product {
     width: 23%;
     min-width: 250px;
-    padding: 25px 15px;
+    padding: 38px 15px;
     transition: .2s;
     position: relative;
     cursor: pointer;
@@ -227,24 +227,20 @@ img {
     color: #BF40C7;
     transition: 0.8s ease;
 }
-/*Add to cart button styling & hover effect*/
-#product1 .pro .cart {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50px;
-    background-color: #e8f6ea;
-    font-weight: 500;
-    color: #088178;
-    border: 1px solid #cce7d0;
-    transition: 0.2s;
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
+
+#banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #130C12;
+    padding:5px;
 }
-
-#product1 .pro .cart:hover {
-    color: #fff;
-    background: #088178;
-    font-weight: 400;
-
+#banner p {
+    font-size:15px;
+    font-weight:500;
+    color:#fff;
+    margin:5px;
+}
+#banner span {
+    font-family: 'poppins';
+    color:#FAAD0D;
+}
