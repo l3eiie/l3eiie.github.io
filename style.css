@@ -876,10 +876,10 @@ textarea{
     }
     
     #feature1 {
-        justify-content: space-between;
+        justify-content: center;
     }
     #feature2 {
-        justify-content: space-between;
+        justify-content: center;
     }
     #feature1 .featured-1a {
         width: 155px;
